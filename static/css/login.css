@@ -1,0 +1,176 @@
+
+.headerPrincipallogin {
+	background-color: #FFF;
+	padding: 5px 0;
+    width: 30%;
+    height: 80%;
+    text-align: center;
+	/*margin: 0px 5px 5px 0px;*/
+	/* Margin arriba derecho izquierdo abajo*/
+    align-items: center;
+    margin: 5px 80% 0 35%;
+
+}
+
+.containerlogin {
+	width: 30%;
+    height: 20%;
+	margin: 0 auto;
+    align-items: center;
+
+}
+
+.headerPrincipal-nav .clsimgencabezadologin{
+	margin-top: 5px;
+	width: 100%;
+    height: 100%;
+
+}
+
+.fomulariologin{
+    align-items: center;
+    text-align:  center;
+}
+
+.fomulariologin .fiedsacceder{
+     /* Le decimos al boton que ocupe el 10% del espacio disponible*/
+     width: 15%;
+     /*El padding amplia internamente el boton y lo hace ver mas amplio*/
+     padding: 15px 0; /* 15 px arriba y abajo y cero para los costados*/
+     /* Tamaño de letra*/
+     font-size: 18px;
+     /* Colocamos negrita al título*/
+     font-weight: bold;
+     /* Damos un color de letra al texto */
+     color: #2c7cf3;
+     /* Damos un color de fondo al botón */
+     background: white;
+     /* Quitamos el borde al boton no se ve muy bien */
+     border: 1px solid rgb(116, 185, 231);
+     /* Redondeamos las esquinas del botón */
+     border-radius: 5px;
+     /* Da una espera en segundos para cambiar el background, para el ejemplo tiene 2 segundos*/
+     transition: 2s background;
+     /* Cambia la flecha del cursor por una mano */
+     cursor: pointer;
+}
+
+.fomulariologin label{
+    text-align:  center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+}
+
+.fomulariologin input{
+    width: 15%;
+    height: 40px;
+    margin: 0.1em auto;
+    border: 1px solid rgb(116, 185, 231);
+    background: rgba(219, 222, 223, 0.884);
+    border-radius: 10px;
+    /*align-items: right;*/
+    display: flex;
+}
+
+.divCamposLogin{
+    width: 100%;
+    margin: 0.5em 0 0.2em 0;
+}
+
+@media(max-width: 780px){
+
+    .headerPrincipallogin {
+        background-color: #FFF;
+       /* padding: 5px 0;*/
+        width: 50%;
+        height: 80%;
+        text-align: center;
+        /*margin: 0px 5px 5px 0px;*/
+        /* Margin arriba derecho izquierdo abajo*/
+        align-items: center;
+       margin: 5px 80% 0 25%;
+    
+    }
+    
+    .divCamposLogin{
+        width: 100%;
+        margin: 0.5em 0 0.2em 0;
+    }     
+    .containerlogin {
+        width: 100%;
+        height: 20%;
+        margin: 0 auto;
+        align-items: center;
+    
+    } 
+
+    .fomulariologin{
+        align-items: center;
+        text-align:  center;
+        width: 100%;
+
+    }
+
+    .fomulariologin input{
+        width: 40%;
+    }
+
+    .fomulariologin .fiedsacceder{
+        /* Le decimos al boton que ocupe el 10% del espacio disponible*/
+        width: 40%;
+
+   }
+    
+}
+
+@media(max-width: 1000px){
+    .headerPrincipallogin {
+        background-color: #FFF;
+       /* padding: 5px 0;*/
+        width: 50%;
+        height: 80%;
+        text-align: center;
+        /*margin: 0px 5px 5px 0px;*/
+        /* Margin arriba derecho izquierdo abajo*/
+        align-items: center;
+       margin: 5px 80% 0 25%;
+    
+    }
+
+    .divCamposLogin{
+        width: 100%;
+        margin: 0.5em 0 0.2em 0;
+    }     
+    .containerlogin {
+        width: 100%;
+        height: 20%;
+        margin: 0 auto;
+        align-items: center;
+    
+    } 
+
+    .fomulariologin{
+        align-items: center;
+        text-align:  center;
+        width: 100%;
+
+    }
+
+    .fomulariologin input{
+        width: 45%;
+    }
+
+    .fomulariologin .fiedsacceder{
+        /* Le decimos al boton que ocupe el 10% del espacio disponible*/
+        width: 50;
+
+   }
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,180 @@
+body{
+    width: 1600px;
+    background: lightskyblue;
+    margin-left: 40px;
+}
+
+header{
+    background-color: #BBBBBB;
+}
+
+h1{
+   /** text-align: center;*/
+    height: 500%;
+   /* border: 2px solid rgb(94, 94, 99);*/
+    padding: 20px;
+    margin: 10px 20px 0;
+}
+
+nav{
+    /* absolute subio el menú al costado derecho de la pantalla */
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+nav ul li{
+   display: inline;
+   font-size: 8px;
+    /* dar espacio interno entre las opciones */
+    /* Arriba, derecha, abajo, izquierda */
+   /*margin: 0 0 0 2px;*/
+   width: 3em;
+   height: 3em;
+   /*margin-left: 90%;*/
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000; 
+    font-weight:bold; /* negrita */
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Hacer una caja que estará dentro de un Div */
+.caja{
+    width: 70%;
+    position: relative;
+    /* Tedrá cero margen en la parte superior e inferior 
+       y auto a la izquierda y a la derecha, es automático para que 
+       el se acomode de forma automática a la resolución de la 
+       pantalla del equipo de computo, exactamente el mismo valor
+       y eso da la sensación que está centralizado */
+    margin: 0 auto;
+
+}
+
+.divmenu{
+    width: 50%;
+}
+
+.divlogin{
+    width: 50%;
+    display: flex;
+}
+
+.titulo-principal{
+    padding-left: 30px;
+}
+.titulo-centralizado{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    height: 150%;
+    padding: 10px;
+    margin: 30px;
+}
+
+
+.tletra20{
+    font-size: 20px;
+}
+ 
+.ctexto{
+    text-align: center;
+}
+ 
+.backcolorTitulo{
+    background-color: #cccccc;
+}
+ 
+em strong{
+    color: red;
+}
+ 
+#mision{
+    font-size: 20px;
+    text-align: center;
+}
+/* div inicial donde están valor1 ... */
+.divDiferenciales{
+    background: #FFFFFF;
+}
+
+.items{
+    font-style: italic;
+}
+
+/* Le damos formato a la imagen */
+.imgDiferenciales{
+    width: 20%;
+    /* margen interna con padding*/
+    padding: 30px;
+}
+
+ul{
+/* Dar formato al menú que tenga un ul presente 
+ocupe el espacio de su contenido y que los espacios a su alrededor 
+se puedan ajustar*/
+    display: inline-block;
+    vertical-align: top; /*Alineación vertical */
+    /* porcentaje de pantalla a ocupar y el margen derecho */
+    width: 100%; 
+    margin-right: 30%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.ulproductos{
+    text-align: center;
+    width: 1500px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.ulproductos li{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    /*background-color: rgb(30, 172, 228);*/
+    margin:1em auto 0.5em;
+    padding: 10px 10px;
+    /* Distribuye los valores de with principal ulproductos para que no sobre pase  
+       los 1500px */
+    box-sizing: border-box;
+    /* Propiedades para los bordes*/
+    border-color:#000000;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.ulproductos li img{
+    width: 50%;
+    /* margen interna con padding*/
+    padding: 30px;
+}
+
+.ulproductos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ulproductos-descripcion{
+    font-size: 18px;
+}
+
+.ulproductos-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+

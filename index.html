@@ -1,0 +1,93 @@
+<!DOCTYPE html> <!-- DOCTYPE le dice al navegador que Version del tipo de html que es 5 -->
+<html lang="es"> <!-- pasamos el lenguaje, vemos que está en ingles y para que sea español
+                      se coloca es -->
+<head> <!-- head nos separa del resto todas las etiquetas que nos informan
+            etiquetas informativas -->        
+    <!-- Etiqueta <meta>, dice que diccionario usar, como vemos es UTF-8 que ya contiene
+         la mayoria de los idiomas que utilizan los lenguajes (español, italiano, frances) usan
+        muchos caracteres especiales
+         Por lo regular el navegador hace este proceso, pero algun navegador puede que no lo haga
+        de esta manera aseguramos que si lo haga. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <script type="text/javascript" src="static/js/apps.js"></script>
+    <title>Cuenta Restaurante</title>
+ 
+</head>
+ 
+<body> <!-- Definimos todas las etiquetas de contenido de la página -->
+
+    <header class="headerPrincipal">
+		<div class="container">
+            <!-- Nav tiene todo el menú de navegación -->
+			<nav class="headerPrincipal-nav">  <!-- Lo llevamos a estilos de flexbox.css-->		
+				<!--<form class="tituloPrincipalForm" action="#">-->
+					<fieldset>
+						<div class="rodapePrincipal-contatoForm-fieldset"> 
+							<div class="clsdiv_logo_busqueda">
+								<input class="cls_campo_busqueda" type="search" name="campo-busqueda" id="id_busqueda" placeholder="Qué desea buscar?">
+                                <img id="idlupa" src="static/img/lupa.jpg" onclick="fmbuscar()">
+							</div>
+                            <img class="clsimgencabezado" src="static/img/gobernacion2.png">
+							<button class="clsboton_login" type="button"  onclick="fnlogin()">Login</button>
+						</div>
+					</fieldset>
+				<!--</form>-->
+			</nav>
+		</div>
+     </header>
+    <h2  class="backcolorTitulo ctexto">Administrar la cuenta</h1>
+    
+        <main class="contenedorProductos">
+            <ul class="ulproductos">
+                <li>
+                    <h2>Producto1</h2>
+                    <img src="static/img/gobernacion2.png" class="decoraProductos">
+                    <p id="producto0" class="ulproductos-descripcion">Producto1 lo mejor de lo mejor</p>
+                    <p class="ulproductos-precio">$Precio</p>
+                </li>
+                <li>
+                    <h2>Producto2</h2>
+                    <img src="static/img/gobernacion3.png">
+                    <p id="producto1" class="ulproductos-descripcion">Producto2 lo mejor de lo mejor</p>
+                    <p class="ulproductos-precio">$Precio</p>
+                </li>
+                <li>
+                    <h2>Producto3</h2>
+                    <img src="static/img/gobernacion5.jpg">
+                    <p  id="producto2" class="ulproductos-descripcion">Producto3 lo mejor de lo mejor</p>
+                    <p class="ulproductos-precio">$Precio</p>
+                </li>
+                <li>
+                    <h2>Producto4</h2>
+                    <img src="static/img/gobernacion6.jpg">
+                    <p  id="producto3" class="ulproductos-descripcion">Producto4 lo mejor de lo mejor</p>
+                    <p class="ulproductos-precio">$Precio</p>
+                </li>
+                <li>
+                    <h2>Producto5</h2>
+                    <img src="static/img/gobernacion7.jpg">
+                    <p id="producto4" class="ulproductos-descripcion">Producto5 lo mejor de lo mejor</p>
+                    <p class="ulproductos-precio">$Precio</p>
+                </li>
+                <li>
+                    <h2>Producto6</h2>
+                    <img src="static/img/restaurante.jpg">
+                    <p id="producto5" class="ulproductos-descripcion">Producto6 lo mejor de lo mejor</p>
+                    <p class="ulproductos-precio">$Precio</p>
+                </li>
+            </ul>
+                <!--<img src="static/img/diferenciales.jpeg" class="imgDiferenciales">-->
+            </div>
+        </main>
+   <footer>
+        <img src="static/img/gobernacion2.png">
+        <p class="copyright; backcolorTitulo">Copyrigth Admon Cuenta - 2022</p>
+   </footer> 
+<body>
+   
+</body>
+</html>

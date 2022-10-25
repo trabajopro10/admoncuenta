@@ -1,0 +1,305 @@
+body {
+	background-color: #F2F5F7;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.container {
+	width: 50%;
+    height: 10%;
+	margin: 0 auto;
+}
+
+.headerPrincipal {
+	background-color: #FFF;
+	padding: 5px 0;
+    position: sticky; /* con sticky y top 0, dejamos el encabezado fijo */
+    top: 0;           /* Tomado de https://blog.duda.co/es/encabezado-fijo */
+	/*margin: 0px 5px 5px 0px;*/
+	/* Margin arriba derecho izquierdo abajo*/
+
+}
+
+.headerPrincipal-nav .rodapePrincipal-contatoForm-fieldset{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rodapePrincipal-contatoForm-fieldset  .clsdiv_logo_busqueda{
+	display: flex;
+	justify-content: space-between;
+	width: 30%;
+}
+
+.clsdiv_logo_busqueda .cls_campo_busqueda{
+	  width: 80%;
+      height: 40px;
+      margin: 0 auto;
+	  border: 1px solid rgb(116, 185, 231);
+	  background: rgba(219, 222, 223, 0.884);
+      border-radius: 10px;
+}
+
+.rodapePrincipal-contatoForm-fieldset .clsboton_login{
+	   /* Le decimos al boton que ocupe el 40% del espacio disponible*/
+	   width: 30%;
+	   /*El padding amplia internamente el boton y lo hace ver mas amplio*/
+	   padding: 15px 0; /* 15 px arriba y abajo y cero para los costados*/
+	   /* Tamaño de letra*/
+	   font-size: 18px;
+	   /* Colocamos negrita al título*/
+	   font-weight: bold;
+	   /* Damos un color de letra al texto */
+	   color: #2c7cf3;
+	   /* Damos un color de fondo al botón */
+	   background: white;
+	   /* Quitamos el borde al boton no se ve muy bien */
+	   border: 1px solid rgb(116, 185, 231);
+	   /* Redondeamos las esquinas del botón */
+	   border-radius: 5px;
+	   /* Da una espera en segundos para cambiar el background, para el ejemplo tiene 2 segundos*/
+	   transition: 2s background;
+	   /* Cambia la flecha del cursor por una mano */
+	   cursor: pointer;
+	  
+}
+
+.headerPrincipal-nav .clsimgencabezado{
+	margin-top: 5px;
+	width: 20%;
+}
+
+
+.subtitulo{
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 10px;
+	margin-left: 200px;
+	text-align: left;
+}
+h3{
+    text-align: center;
+    height: 150%;
+    padding: 10px;
+    margin: 30px;
+}
+
+#idlupa{
+    width: 15%;
+    height: 15%;
+}
+
+.tletra20{
+    font-size: 20px;
+}
+ 
+.ctexto{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(255, 251, 252);
+    font-style: oblique;
+}
+ 
+.backcolorTitulo{
+    background-color: #413e3eb0;
+    width: 60%;
+    margin: 0 20% 0 20%;
+}
+ 
+em strong{
+    color: red;
+}
+ 
+#mision{
+    font-size: 20px;
+    text-align: center;
+}
+/* div inicial donde están valor1 ... */
+.divDiferenciales{
+    background: #FFFFFF;
+}
+
+.items{
+    font-style: italic;
+}
+
+/* Le damos formato a la imagen */
+.imgDiferenciales{
+    width: 20%;
+    /* margen interna con padding*/
+    padding: 30px;
+}
+
+ul{
+/* Dar formato al menú que tenga un ul presente 
+ocupe el espacio de su contenido y que los espacios a su alrededor 
+se puedan ajustar*/
+    /*display: inline-block;*/
+    flex-direction: row;
+    vertical-align: top; /*Alineación vertical */
+    /* porcentaje de pantalla a ocupar y el margen derecho */
+    width: 100%; 
+    margin-right: 30%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.contenedorProductos{
+    width: 70%;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+    margin: 0 20% 10% 15%;
+	/*margin: 0 auto;*/
+}
+
+
+.ulproductos{
+    text-align: center;
+    width: 1500px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.ulproductos li{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    /*background-color: rgb(30, 172, 228);*/
+    margin:1em auto 0.5em;
+    padding: 10px 10px;
+    /* Distribuye los valores de with principal ulproductos para que no sobre pase  
+       los 1500px */
+    box-sizing: border-box;
+    padding: 20px 10px;
+    /* Propiedades para los bordes*/
+    border-color:#000000;
+    border-style: solid;
+    border-width: 1px;
+    border: 1px solid #000000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-radius: 20px;
+}
+
+.ulproductos li:hover{
+    color: #919113f8;
+    border-color: #919113f8;
+    text-decoration: underline;
+}
+
+.ulproductos li:active{
+    border-color: darkorange;
+}
+
+.ulproductos li img{
+    width: 50%;
+    /* margen interna con padding*/
+    padding: 30px;
+}
+
+.ulproductos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ulproductos-descripcion{
+    font-size: 18px;
+}
+
+.ulproductos-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    background: url(static/img/bg.jpg);
+    color: aliceblue;
+    text-align:  center;
+    padding: 40px;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 100;
+}
+
+@media(max-width: 780px){
+    .container {
+        width: 100%;
+        height: 10%;
+        margin: 0 auto;
+    }
+    
+    ul{
+        /* Dar formato al menú que tenga un ul presente 
+        ocupe el espacio de su contenido y que los espacios a su alrededor 
+        se puedan ajustar*/
+           flex-direction: column;
+            /*display:inline-flex;*/
+            vertical-align: top; /*Alineación vertical */
+            /* porcentaje de pantalla a ocupar y el margen derecho */
+            /*width: 100%; */
+            margin: auto;
+        }
+
+        .ulproductos-descripcion{
+            font-size: 80%;
+        }
+        
+        .ulproductos-precio{
+            font-size: 80%;
+            font-weight: bold;
+            margin-top: 10%;
+        }
+
+        .ulproductos h2{
+            font-size: 80%;
+            font-weight: bold;
+        }
+
+        .ulproductos li img{
+            width: 70%;
+            /* margen interna con padding*/
+            /*padding: 40%;*/
+            text-align: center;
+        }
+
+       .ulproductos li{
+           display: inline-block;
+           text-align: center;
+           width: auto;
+        }
+
+        .backcolorTitulo{
+            background-color: #413e3eb0;
+            width: 100%;
+            margin: 0%;
+        }
+        
+}
+
+@media(max-width: 1200px){
+    .container {
+        width: 100%;
+        height: 10%;
+        margin: 0 auto;
+    }
+    .ulproductos-descripcion{
+        font-size: 80%;
+    }
+    
+    .ulproductos-precio{
+        font-size: 80%;
+        font-weight: bold;
+        margin-top: 10%;
+    }
+
+    .ulproductos h2{
+        font-size: 80%;
+        font-weight: bold;
+    }
+}
